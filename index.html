@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+   <p class="opening">
+       Phonterifik &#128269;
+   </p>
+<!--This part highlights the main structure of my profile page-->
+
+<section class="form">
+    <form class="main">
+
+        <img src="phonterifik..jpeg" alt="">
+
+        <header class="profile1">
+            PHONTERA
+        </header>
+
+        <header2 class="profile2">
+            phontera
+        </header2>
+
+        <div class="member-location">
+            <strong>Abuja, Federal Capital Territory</strong>
+        </div>
+
+        <div class="member-languages clearfix">
+            <a class="language" href="#">English & French Speaking</a>
+        </div>
+
+        <div class="about-container">
+            <p class="about">
+                A free spirited soul on a voyage of self discovery and purpose.
+            </p>
+        </div>
+
+        <section class="skills">
+            <h3>Skills</h3>
+            <button class="button1">Front-end Developer</button> <br>
+            <button class="button2">Creative Writer</button> <br>
+            <button class="button3">Medic</button>
+        </section>
+
+        <section class="hobbies">
+            <h3>Hobbies</h3>
+            <button class="button4">Reading</button> <br>
+            <button class="button5">Astrology</button> <br>
+            <button class="button6">Music</button> <br>
+            <button class="button7">Traveling</button>
+        </section>
+
+        <div class="followers-following-project">
+            <p class="followers">
+                SAVED PROJECTS | FOLLOWING | FOLLOWING
+            </p>
+        </div>
+
+        <section class="edit">
+            <button class="button8">Edit Profile</button>
+        </section>
+
+        <section class="invite">
+            <button class="button9">Invite Friends</button>
+        </section>
+    </form>
+</section>
+
+<!--This part is for a contact form-->
+
+
+<section class="contact">
+    <h3 class="contact form">Contact Me</h3>
+    <form class="contactme" action="processform.php" method="POST">
+
+    <p class="firstname">
+        <label for="first_name">First Name</label><br />
+        <input type="text" name="first_name" placeholder="Enter Your First Name" />
+    </p>
+
+    <p class="lastname">
+        <label for="last_name">Last Name</label><br />
+        <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+    </p>
+
+    <p class="email">
+        <label for="email">Email</label><br />
+        <input type="email" name="email" placeholder="Enter Your Email" required />
+    </p>
+
+    <p class="select">
+        <label for="Social Media">Social Media</label><br />
+
+        <select name="Social Media">
+            <option class="option1">Prefered Platform</option>
+            <option class="option2">Twitter</option>
+            <option class="option3">Slack</option>
+            <option class="option4">Facebook</option>
+
+        </select>
+    </p>
+
+         <p class="radio">
+                <label for="gender">Gender</label><br />
+                <input type="radio" name="gender" /> Female <br>
+                <input type="radio" name="gender" /> Male
+        </p>
+
+
+        <p class="message">
+          <label for="message">Your Message</label><br />
+          <textarea name="message" ></textarea>
+        </p>
+
+        <p class="checkbox">
+
+          <input type="checkbox" name="terms"  required /> Please check box before sending message
+        </p>
+             <button class="button10" type="submit">Send Message</button>
+
+     </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

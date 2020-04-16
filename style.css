@@ -1,0 +1,230 @@
+img {
+   border: 1px solid #ddd; 
+   border-radius: 4px;
+   padding: 3px;
+   width: 150px;
+   background-color: rgb(10, 10, 10);
+}
+
+body {
+    background-color: rgb(147, 151, 137); 
+}
+
+.main {
+    text-align: center;
+    background-color:  rgb(214, 204, 68);
+    border: 1px solid black;
+    min-width: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.profile1 {
+    color:rgb(0, 0, 0);
+    display: block;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile2 {
+    color: rgb(37, 28, 28);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.member-location {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: 10px; 
+}
+
+a.language {
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+
+a.rating {
+    text-decoration: none;
+}
+
+strong {
+    color: ghostwhite;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.button1 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button2 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button3 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button4 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button5 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button6 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button7 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+}
+
+p.followers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.button8 {
+    width: 200px;
+    background-color: white;
+    color: rgb(26, 25, 25);
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+.button9 {
+    width: 200px;
+    background-color: white;
+    color: rgb(26, 25, 25);
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+.contact {
+    background-color: rgb(150, 145, 86);
+    border: 1px solid black;
+    min-width: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+
+form.contactme {
+    background-color: rgb(147, 151, 137); 
+    border: 1px solid black;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.opening {
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button10 {
+    width: 200px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;  
+}
+
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
